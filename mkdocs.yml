@@ -1,0 +1,22 @@
+site_name: ABCDE ZK 导论
+
+theme:
+  name: 'material'
+
+languages:
+  - en
+  - zh
+
+nav:
+    - 导航: index.md
+    - 目录: content.md
+    - 简介:
+        - 背景和定义: Intro/background.md
+        - ZK总览: Intro/overview.md
+    - 数学基础:
+        - 离散对数问题和解法: Math/discrete_log.md
+        - 椭圆曲线基础: Math/curve.md
+        - 群论与置换: Math/group.md
+    
+
+
